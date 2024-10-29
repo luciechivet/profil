@@ -1,0 +1,92 @@
+body {
+   background: #EEF0F2;
+   color: #A2999E;
+   font-family: 'Oswald', sans-serif;
+   font-size: 17px;
+   font-weight: lighter;
+ }
+h1, h2, h3 {
+  font-family: 'Nunito', serif;
+}
+h1 {
+    color: #846A6A;
+    font-size: 32px;
+    font-weight: 900 ;
+ }
+h2 {
+	color: #846A6A;
+	font-size: 24px;
+    font-weight: lighter;
+    font-weight: 300 ;
+}
+a {
+	font-family:'Oswald', sans-serif;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+  color: white;
+}
+
+
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+@media (max-width: 800px){
+  .container{
+    width: 650px;
+  }
+}
+@media (max-width: 500px){
+  .container{
+    width: 400px;
+  }
+}
+
+
+.card-white{
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0px 3px 10px rgb(211 211 214);
+  border-radius: 6px;
+  margin: 20px 0px;
+  text-align: center ;
+}
+.img-circle{
+  border-radius: 60%;
+}
+.btn-blue{
+  background-color: #846A6A ;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+.btn-blue:hover{
+  background-color: #A2999E;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+.list-inline i{
+  font-size: 50px;
+  color: #846A6A;
+}
+.list-inline i:hover{
+  color: #A2999E;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
